@@ -60,10 +60,10 @@ devTools:
     description: 面向开源及私有软件项目的托管平台。
 
 myBlog:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
+  - name: Inkstone Blog
+    url: https://xaihan.github.io/blog
     img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
+    description: 砚知的个人博客。
 
 about:
   url: /about/
