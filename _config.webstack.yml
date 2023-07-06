@@ -28,9 +28,6 @@ githubCorner: '<a href="https://github.com/XAihan" class="github-corner" aria-la
 
 expandAll: false
 menu:
-  - name: 测试页面
-    icon: far fa-star
-    config: testPage
   - name: 常用工具
     icon: far fa-star
     config: hotTools
@@ -73,20 +70,20 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p><a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+    html: '<blockquote> 这里是砚知的个人网站 </blockquote>'
   webmaster:
     head: 关于站长
     name: XAihan
     url: https://github.com/XAihan
     img: /images/logos/56574869.jpeg
     description: 小垃圾一枚
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+    html: '<br /><blockquote>在这里记录当前的学习状态</blockquote>'
 
-since: 2020
+since: 2022
 
 busuanzi:
   enable: true
-  position: sidebar # 'footer','sidebar'
+  position: footer # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
 
