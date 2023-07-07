@@ -50,6 +50,18 @@ personalProject:
     img: /images/logos/github.png
     url: 'https://xaihan.github.io/scrollerNumber/#/'
     description: 根据wallpaper壁纸制作的同款滑动时钟
+  - name: 行动代号（桌游）基础版
+    img: /images/logos/github.png
+    url: https://github.com/XAihan/OperationCodeTBG
+    description: 根据行动代号桌游写的简易版，没有添加UI。
+  - name: 手写简易版的webpack
+    img: /images/logos/github.png
+    url: https://github.com/XAihan/webpack-simple-handwriting
+    description: 手写简易版的webpack，加深对webpack的理解。
+  - name: 封装dialog弹窗组件
+    img: /images/logos/github.png
+    url: https://github.com/XAihan/package-dialog-study
+    description: 根据公司需求封装弹窗组件，开发提速。
   - name: Inkstone Blog
     url: https://xaihan.github.io/blog
     img: /images/logos/56574869.jpeg
