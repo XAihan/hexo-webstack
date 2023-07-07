@@ -28,43 +28,51 @@ githubCorner: '<a href="https://github.com/XAihan" class="github-corner" aria-la
 
 expandAll: false
 menu:
-  - name: 个人项目
-    icon: far fa-star
-    submenu: 
-      - name: 滑动的时钟
-        icon: fas fa-blog
-        config: scrollerClock
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
   - name: 其他工具
     icon: fas fa-tools
     submenu:
       - name: 开发工具
         icon: fas fa-tools
         config: devTools
+  - name: 个人项目
+    icon: far fa-star
+    submenu: 
+      - name: 个人项目
+        icon: fas fa-blog
+        config: personalProject
+      - name: 社区平台账号
+        icon: fas fa-blog
+        config: community
+  
 
-scrollerClock:
-  - name: scroller
+personalProject:
+  - name: 滑动的时钟
     img: /images/logos/github.png
     url: 'https://xaihan.github.io/scrollerNumber/#/'
     description: 根据wallpaper壁纸制作的同款滑动时钟
-testPage:
-  - name: Child Page
-    url: /child
-    img: /images/logos/myblog.png
-    description: 子页面测试
-devTools:
-  - name: Vue3 One Piece
-    url: https://www.vue3js.cn/
-    img: /images/vue3.png
-    description: 面向开源及私有软件项目的托管平台。
-
-myBlog:
   - name: Inkstone Blog
     url: https://xaihan.github.io/blog
     img: /images/logos/56574869.jpeg
     description: 砚知的个人博客。
+devTools:
+  - name: Vue3 One Piece
+    url: https://www.vue3js.cn/
+    img: /images/vue3.png
+    description: 对于VUE，更快，更轻，易维护，更多的原生支持
+
+community:
+  - name: XAihan github
+    url: https://github.com/XAihan
+    img: /images/logos/56574869.jpeg
+    description: XAihan的github
+  - name: XAihan 掘金
+    url: https://juejin.cn/user/1512527461883608
+    img: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/img/juejin.7948662.png
+    description: XAihan的掘金主页
+  - name: XAihan CSDN
+    url: https://blog.csdn.net/weixin_44220680?spm=1000.2115.3001.5343
+    img: https://g.csdnimg.cn/static/logo/favicon32.ico
+    description: XAihan的CSDN
 
 about:
   url: /about/
